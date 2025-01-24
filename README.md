@@ -35,7 +35,7 @@ The extension provides the following features.
 
 - <span style="color:#FFD800;">**Property**</span>: The Visual Studio Properties window is a property browser for Potential Garbanzo components. The Properties window list metadata at design time for the currently selected object in any other window in the integrated development environment (IDE).
 
-![api-studio-visualstudio-overview-highlighted__1.png](images/api-studio-visualstudio-overview-highlighted.png)
+![api-studio-visualstudio-overview-highlighted](https://github.com/user-attachments/assets/f2bd2bce-260f-4172-beae-2c8e02a54b96)
 
 ### **Visual Studio Projects**
 
@@ -45,26 +45,26 @@ Potential Garbanzo provides a visual studio project containing all assets to get
 
 |                                          Projects                                           | Language | Library        | Framework | Version | Status | Comments                                                                     |
 | :-----------------------------------------------------------------------------------------: | -------- | -------------- | --------- | ------- | :----: | ---------------------------------------------------------------------------- |
-| ![csharp-azurefunction-dotnet6](images/api-studio.codegen.csharp-azurefunction-dotnet6.png) | csharp   | azure_function | net6.0    | 1.0.0   |   ✅   |
-|    ![csharp-minimalapi-dotnet6](images/api-studio.codegen.csharp-minimalapi-dotnet6.png)    | csharp   | minimum_api    | net6.0    | 1.0.0   |   ✅   | net6.0 openapi specification limitations, anticipated full support in net7.0 |
+| ![api-studio codegen csharp-azurefunction-dotnet6](https://github.com/user-attachments/assets/5f997f4e-b15e-4039-9c6b-b98384effde5) | csharp   | azure_function | net6.0    | 1.0.0   |   ✅   |
+| ![api-studio codegen csharp-minimalapi-dotnet6](https://github.com/user-attachments/assets/33f0259a-c370-427f-be48-6eac95f825d6) | csharp   | minimum_api    | net6.0    | 1.0.0   |   ✅   | net6.0 openapi specification limitations, anticipated full support in net7.0 |
 
 ### Template Standards
 
 Potential Garbanzo provides templated standards for header, response codes and security models. Allowing enterprise standards to be shared between development teams. The options are available within visual studios options Tools --> Options --> ApiStudio. The options panel provide Import/Export functionality.
 
-![api-studio-visualstudio-options.png](images/api-studio-visualstudio-options.png)
+![api-studio-visualstudio-options](https://github.com/user-attachments/assets/244854db-48d0-450e-8f6b-9d11c1a89dab)
 
 ### Potential Garbanzo Designer
 
 The api-studio files are located in the `"\ApiStudio"` folder within the project. To open the designer double click the file, or right click and select `"Open"`
 
-![api-studio-visualstudio-project.png](images/api-studio-visualstudio-project.png)
+![api-studio-visualstudio-project](https://github.com/user-attachments/assets/7a893386-2e7b-49dd-9098-656d5e9f8001)
 
 ## **Getting Started**
 
 Creating a new project is simple. Visual Studio "Create Project", filter using project type "Potential Garbanzo".
 
-![api-studio-project-template-filter.png](images/api-studio-project-template-filter.png)
+![api-studio-project-template-filter](https://github.com/user-attachments/assets/c19d58e2-024a-49e3-9861-5aab3b7e324c)
 
 ## **What's next**
 
