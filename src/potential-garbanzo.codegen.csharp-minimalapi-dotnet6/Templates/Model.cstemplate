@@ -1,0 +1,27 @@
+﻿#nullable enable
+namespace {{TOKEN_OAS_PROJECT_NAME}}.{{TOKEN_OAS_NAMESPACE}}
+{
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel;
+
+    public class {{TOKEN_OAS_CLASS_NAME}}
+    {
+        
+        [Description("Example of required uuid")]
+        [DefaultValue("5571596d-dd42-4fb6-8c20-2620cc43d432")]
+        public Guid Identifier { get; set; } = new Guid("5571596d-dd42-4fb6-8c20-2620cc43d432");
+
+        [Description("Example of optional string")]
+        [DefaultValue("obj-12345")]
+        public string? Name { get; set; } = "obj-12345";
+
+        [Description("Example of optional datetime")]
+        [DefaultValue("2021-12-21T15:35:31Z")]
+        public DateTime? UtcTimeStamp { get; set; } = DateTime.UtcNow;
+
+        [Description("Example of optional boolean")]
+        [DefaultValue(true)]
+        public bool? Boolean { get; set; } = true;
+    }
+}
